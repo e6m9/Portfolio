@@ -48,6 +48,7 @@ p {
 }
 
 .banner {
+    overflow: hidden;
 }
 
 .nav {
@@ -97,6 +98,10 @@ p {
     display: flex;
     flex: 30%;
     justify-content: space-around;
+}
+
+.package {
+    width: 200px;
 }
 
 .sound {
