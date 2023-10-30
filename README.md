@@ -11,6 +11,6 @@ To get to know Ashley and her work on any media device so that she can be consid
 [screenshot-1](assets\images\portfolio 1.png)
 [screenshot-2](assets\images\portfolio flex.png)
 
-[link-to-site](https://e6m9.github.io/portfolio)
+[link-to-site](https://e6m9.github.io/Portfolio)
 
 
