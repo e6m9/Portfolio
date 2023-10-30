@@ -8,8 +8,6 @@
 
 * {
     font-family:'Arial', 'Helvetica', sans-serif;
-    box-sizing: border-box;
-    margin: 0px;
 }
 
 /* sets teal border */
@@ -63,17 +61,16 @@ h2 {
     border: 6px solid var(--sec);
 }
 
+.logo img {
+    max-width: 100%;
+    min-width: none;
+}
+
 .logo h1 {
     padding-bottom: 10px;
 }
 
 /* sets up content sections */
-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
 h3 {
     font-size: xx-large;
     color: var(--sec);
@@ -81,11 +78,20 @@ h3 {
 }
 
 p {
-    padding-top: 10px;
+    padding-top: 5px;
     color: var(--text);
 }
 
+container {
+    flex: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex: 0 3 400px;
+}
+
 .about {
+    display: flex;
     width: 100%;
     display: inline-flex;
     border-top: 6px solid var(--ter);
@@ -94,63 +100,92 @@ p {
 }
 
 .about img {
+    max-width: 100%;
+    min-width: none;
     float: left;
     padding: 20px;
 }
 
+.about p {
+    line-height: 1.5;
+    padding-top: 10px;
+}
+
 .apps {
     width: 100%;
-    display: inline-block;
+    display: inline-flex;
     border-top: 6px solid var(--ter);
     border-bottom: 6px solid var(--sec);
     padding: 10px;
+}
+
+.apps img {
+    max-width: 100%;
+    min-width: none;
+    padding-top: 10px;
 }
 
 .visual {
-    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    display: inline-flex;
     border-top: 6px solid var(--ter);
     border-bottom: 6px solid var(--sec);
     padding: 10px;
+}
+
+h4 {
+    line-height: 1.5;
+    display: block;
+    color: var(--text);
+    padding-top: 10px;
+}
+
+.visual img {
+    max-width: 100%;
+    min-width: none;
+    padding-top: 10px;
+}
+
+
+.visual p {
+    width: 60%;
 }
 
 .sound {
-    width: 100%;
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
     border-top: 6px solid var(--ter);
     border-bottom: 6px solid var(--sec);
     padding: 10px;
+}
+
+.sound img {
+    padding-top: 10px;
+}
+
+.sound p {
+    width: 60%;
 }
 
 .contact {
-    width: 100%;
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
     border-top: 6px solid var(--ter);
     border-bottom: 6px solid var(--sec);
     padding: 10px;
 }
 
-/* sets up section displays */
+/* why doesn't this center the image?
+.contact div {
+    justify-content: center;
+} */
 
-.row {
-    display: flex;
-    justify-content: space-around;
+.contact img {
+    max-width: 100%;
+    padding-top: 10px;
 }
 
-.row2 {
-    display: flex;
-    justify-content: space-around;
-}
-
-.package {
-    flex-basis: auto;
-    width: 20%;
-}
-
-@media screen and (max-width: 576px) {
-    .section,
-    .row,
-    .row2 {
-        flex-direction: column;
-        flex: 2;
-    }
+.contact p {
+    width: 60%;
 }

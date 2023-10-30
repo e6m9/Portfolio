@@ -4,7 +4,13 @@
         License: none (public domain)
 */
 
-html, body, div, h1, h2, h3, p, a, img, footer, header, nav, section
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body, div, h4, a, img, footer, header, nav, section
 {
 	margin: 0;
 	padding: 0;
