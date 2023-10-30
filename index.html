@@ -1,8 +1,9 @@
-<!--add reset css file. maybe add stargazer to bottom right of screen for fun-->
+<!--add reset css file.-->
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="./assets/css/reset.css">
         <link rel="stylesheet" href="assets/style.css"/>
         <title>AshMax Portfolio</title>
     </head>
@@ -15,29 +16,29 @@
             <img id="stargazer" src="assets/images/stargazer.png" alt="silhoette of a stargazer" height="200px">
         </div>
 
-<!--name on left side under image, links on right side over laying image w/ black background. links turn white when clicked-->
+<!--name on left side. links on right side... make links turn white when clicked-->
         <header>
             
             <div class="banner">
                 <img src="assets/images/Into the night edit-crop.JPG" alt="a crop of an abstract painting of spirits">
             </div>
 
-<!--why does 'audio' display larger than the rest?-->
-            <div class="nav">
-                <h2> <a href="#about"> about </a></h2>
-                <h2> <a href="#apps"> apps </a></h2>
-                <h2> <a href="#visual"> visual <a></h2>    
-                <h2> <a href="#sound"> audio </a></h2>   
-                <h2> <a href="#contact"> contact </a></h2>                 
-            </div>
+<!--displays name and nav bar... reduce space above links-->
+                <div class="overlay">
+                    <h1>Ashley Maximillian</h1>
+                </div>
 
-            <div>
-                <h1>Ashley Maximillian</h1>
-            </div>
+                <div class="nav">
+                    <h2> <a href="#about"> about </a></h2>
+                    <h2> <a href="#apps"> apps </a></h2>
+                    <h2> <a href="#visual"> visual <a></h2>    
+                    <h2> <a href="#sound"> audio </a></h2>   
+                    <h2> <a href="#contact"> contact </a></h2>                 
+                </div>
 
         </header>
 
-<!-- -->
+<!--main image and text phrase-->
         <splash>
                 <div class=logo>
                     <img src="assets/images/cc logo 22.jpg" alt="silhouette of a stargazer with stylized text that reads Cosmic Cry underneath">
@@ -45,8 +46,7 @@
                 </div>
         </splash>
 
-        <!--about me: include materials, years active, performances, philly trans art market
-        left side: picture of me, blurb to the right of that, c+p then update from google doc-->        
+<!--about me: image on right, text on left-->        
     <section class="about">
         <div id="about">
             <h3>Who is she?</h3>
@@ -54,8 +54,8 @@
             <p>Based in New Jersey, Cosmic Cry encapsulates the creative output of self taught trans creative, Ashley Maximillian, who embraces an absurdist DIY attitude whose output consists of, and often combines, elements of digital and analogue visuals and sound. A through line of wild chaos magic and fearlessly pushing boundaries brings it all together, representing Ashley’s desire to channel her drive for exploration and transformation.
             </p>
                 <p>
-                Ashley has been active as an artist since 2014 when one of her original songs was included on “Just Sign on the Dotted Line”, a compilation from Electro-Faustus, alongside legendary Japanese noise artist, Merzbow. After that, she contributed art and a few tracks to Uninvited Records. She is familiar with performance and pop up galleries, having collaborated with  artist EKG and sound designer Jefferson Wells as The Avant Squad (TAS) from 2015-2017. Together, they transformed gallery spaces such as the Tender Trap in Greenpoint, Brooklyn and Works on Paper in Philadelphia into black voids of iconography, symbols, and noise. During that time, Ashley took part in a tour for Andrew Shirley’s  film, “Wastedland 2,” playing shows up and down the East Coast. Since then, Ashley has worked toward building an online and in person community by performing and vending at local art events. She started mixing and mastering music in 2022, mostly working with antifascist black metal and punk bands.
-                In 2023, one of her paintings was published in Variant Lit. 
+                Ashley has been active as an artist since 2014 when one of her original songs was included on “Just Sign on the Dotted Line”, a compilation from Electro-Faustus, alongside legendary Japanese noise artist, Merzbow. After that, she contributed art and a few tracks to Uninvited Records. She is familiar with performance and pop up galleries, having collaborated with  artist EKG and sound designer Jefferson Wells as The Avant Squad (TAS) from 2015-2017. Together, they transformed gallery spaces such as the Tender Trap in Greenpoint, Brooklyn and Works on Paper in Philadelphia into black voids of iconography, symbols, and noise. During that time, Ashley took part in a tour for Andrew Shirley’s  film, “Wastedland 2,” playing shows up and down the East Coast. Since then, Ashley has worked toward building an online and in person community by performing and vending at local art events and even at the Trans Art Market in Philadelphia. She started mixing and mastering music in 2022, mostly working with antifascist black metal and punk bands.
+                In 2023, one of her paintings was published in Variant Lit.
                 </p>
                     <p>
                     More recently, she began diving into a passion she had explored on and off over the years: programming. Ashley got her first taste of coding when she took an Intro to Java class in high school. Later explorations included customizing a weapon pack for DOOM II and learning about Processing, a programming language created specifically for artistic expression
@@ -73,12 +73,9 @@
         </div>
     </section>
 
-<!--images of art w/ alt text. include best paintings, wrapped crystals, instruments-->
+<!--images of art w/ alt text and links when available-->
     <section class="visual">
         <div id="visual">
-<!--link to variant lit page. 
-    set max and min size for images according to flex size
-    have images open full size in a window-->
             <h3>Visual</h3>
             <p>The following are a few examples of Ashley's visual output including traditional paintings, homemade instruments, and multimedia pieces. More can be found <a href="https://www.instagram.com/cosmiccrygallery/">@instagram.</a></p>
             <br>
@@ -102,7 +99,7 @@
                     </package>
                 </container>
                             <br>
-                <container class="row">
+                <container class="row2">
                     <package class="package">
                         <img src="assets/images/IMG_5766.JPG" alt="a homemade instrument that utilizes 3 guitar strings, a spring, and a guitar pickup" height="300">
                         <p> The Maximer </p>
@@ -117,7 +114,7 @@
         </div>
     </section>
 
-<!--links to ASHES on bandcamp, 'just the hits' on soundcloud. make links open in new tab-->
+<!--links to music projects... make links open in new tab-->
     <section class="sound">
         <div id="sound">
             <h3>Audio</h3>

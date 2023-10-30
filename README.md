@@ -20,10 +20,6 @@ SO THAT I can review samples of their work and assess whether they're a good can
 Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
 
 ```
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to divs about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
 THEN the UI scrolls to the corresponding div
 WHEN I click on the link to the div about their work
 THEN the UI scrolls to a div with titled images of the developer's applications
@@ -37,9 +33,8 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 # to do
 
---set up header w/ pics, name, and links
 --set up links to bio, my work, and contact links
-    --inlude prework project, week 1 homework, screenshots of Doom weapon mod, screenshots of processing projects, as well as links to unrelated work as an aside including cosmiccry bandcamp, cosmiccry gallery instagram page, 
+    --inlude prework project, week 1 homework, screenshots of Doom weapon mod, screenshots of processing projects,
 --use prework app as first app with larger image
 --MAKE IT FLEX!
 
