@@ -17,7 +17,7 @@ body {
     border-right: 10px solid var(--pri)
 }
 
-header img{
+header img {
     max-width: 100%;
     min-width: none;
 }
