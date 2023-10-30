@@ -17,6 +17,11 @@ body {
     border-right: 10px solid var(--pri)
 }
 
+header img{
+    max-width: 100%;
+    min-width: none;
+}
+
 /* sets fixed stargazer */
 #stargazer {
     position: fixed;
