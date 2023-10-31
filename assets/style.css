@@ -26,12 +26,19 @@ body {
 
 /* prevents banner from overlapping border */
 .banner {
+    size: 100%;
     overflow: hidden;
 }
 
 /* sets h1 overlay on banner */
 .overlay {
-    top: -30px;
+    top: -102px;
+    position: relative;
+    max-width: fit-content;
+}
+
+.overlay2 {
+    top: -60px;
     position: relative;
     max-width: fit-content;
 }
@@ -39,12 +46,14 @@ body {
 h1 {
     background-color: black;
     color: var(--pri);
+    padding-top: 4px;
     padding-left: 20px;
 }
 
 /* sets up nav bar */
 .nav {
-    text-align: right;
+    background-color: black;
+    padding: 3px;
 }
 
 h2 {
